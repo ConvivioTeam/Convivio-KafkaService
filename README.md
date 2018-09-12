@@ -27,3 +27,20 @@ Then, build the Docker instance:
 ```
 $ make up
 ```
+
+### 2. When you're finished
+
+Stop the Docker containers:
+
+```
+$ make down
+```
+Optionally, remove the containers completely:
+```
+$ make prune
+```
+Stop and remove the Docker machine:
+```
+$ docker-machine stop ap-kafka
+$ docker-machine rm ap-kafka
+```
