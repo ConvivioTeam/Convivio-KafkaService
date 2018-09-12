@@ -13,9 +13,9 @@ Create a Docker machine for the Kafka container:
 ```
 $ docker-machine create --driver=virtualbox --virtualbox-memory "6000" ap-kafka
 ```
-Get the docker machine environment.
+Get the docker machine IP.
 ```
-$ docker-machine env ap-kafka
+$ docker-machine ip ap-kafka
 ```
 
 Modify the `KAFKA_ADVERTISED_HOST_NAME` environment variable in your `.env` file to use the IP of the new Docker machine for Kafka.
