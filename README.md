@@ -2,6 +2,9 @@
 
 This microservice uses [Apache Kafka](https://kafka.apache.org/) to provide real-time data pipelines and distributed streaming.
 
+**HT:**
+Uses Docker images from [wurstmeister](https://hub.docker.com/u/wurstmeister/).
+
 ## Install
 ### 1. Create a one-node docker-machine for the Kafka container
 
